@@ -16,7 +16,7 @@ main:
 #    url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: <a href="files/cv_erikjansenn.pdf" class="image fit"><img src="images/IMG_7477--HSG-5CG1052HX1.png" alt=""></a>
     
  # - title: "Guide"
  #   url: /markdown/
