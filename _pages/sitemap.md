@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+<p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Some rights reserved.</p>
 
 <!-- 
 {% include base_path %}
