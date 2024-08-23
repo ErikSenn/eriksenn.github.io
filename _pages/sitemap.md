@@ -7,11 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Some rights reserved.</p>
-
-<!-- 
-{% include base_path %}
-
 A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
 
 <h2>Pages</h2>
@@ -39,4 +34,4 @@ A list of all the posts and pages found on the site. For you robots out there is
   {% include archive-single.html %}
   {% endunless %}
 {% endfor %}
-{% endfor %} -->
+{% endfor %} 
