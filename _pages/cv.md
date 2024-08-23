@@ -11,27 +11,23 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Economics and Finance with Econometrics Focus, University of St. Gallen, 2026/27 (expected)
+* M.A. in Quantitative Economics and Finance, University of St. Gallen, 2022
+* B.S. in Business and Economics, University of Tuebingen, 2019
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* University of St. Gallen
+  * Research Assistant at Faculty of Mathematics and Statistics for Prof. Francesco Audrino (2021 - present)
+  * Junior Research Assistant at Swiss Institute of Banking and Finance for [Prof. Angelo Ranaldo](https://sites.google.com/view/angeloranaldo/) (2021)
+  * Junior Research Assistant at Institute of Economics for [Prof. Thomas Epper](https://www.thomasepper.com/) (2019 - 2021)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Industry work experience
+  * Deutsche Bundesbank, Bond Pricing (internship, 2020)
+  * Deloitte, Financial Risk Management (internship and working student, 2017-2018)
+  * Deutsche Bank, FX and Interest Rate Products (internship, 2019)
+  * Topsim, Modelling (internship and full-time, 2018-2019)
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
 * Skill 1
@@ -62,3 +58,7 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+Miscellaneous
+======
+* Finalist of the [Econometrics Games in Amsterdam](https://wceconometrics.com/) 2023.
