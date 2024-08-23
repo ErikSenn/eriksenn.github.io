@@ -16,7 +16,7 @@ main:
 #    url: /year-archive/
     
   - title: "CV"
-    url: /files/cv_erikjansenn.pdf 
+    url: /files/cv_erikjansenn.pdf # <create CV manually in overleaf
     external: true # Indicating it's an external file
     new_tab: true  # Open in a new tab
     
