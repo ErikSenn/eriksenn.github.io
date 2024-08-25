@@ -17,7 +17,7 @@ I am enthusiastic about enriching the Machine Learning toolbox for Economists, a
 Currently, I work on the following topics:
 - [Working paper](https://www.alexandria.unisg.ch/handle/20.500.14171/119138): "LongFinBERT: A Language Model for Very Long Financial Documents" (joint with Minh Tri Phan)
 - Financial Sentiment from Social Media Images 
-- Social Media Network Structure and Financial Decisions
+- Networks of Retail Investors
 - Data-driven interpretable AI for Economics and Finance
 
-If you are interested in me or my work, get in contact and we can have a chat!
+If you are interested in me or my work, [get in contact](mailto:erik-jan.senn@unisg.ch) and we can have a chat!
