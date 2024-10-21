@@ -21,3 +21,5 @@ Currently, I work on the following topics:
 - Data-driven interpretable AI for Economics and Finance
 
 If you are interested in me or my work, [get in contact](mailto:erik-jan.senn@unisg.ch) and we can have a chat!
+
+[Link to CV](https://eriksenn.github.io/files/cv_erikjansenn.pdf)
