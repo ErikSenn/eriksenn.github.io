@@ -15,10 +15,11 @@ Under the supervision of [Prof. Dr. Francesco Audrino](https://www.linkedin.com/
 I am enthusiastic about enriching the Machine Learning toolbox for Economists, and I apply Machine Learning to extract economically relevant information from novel data sources.
 
 Currently, I work on the following topics:
+- Data-driven interpretable AI (Symbolic Regression)
 - [Working paper](https://www.alexandria.unisg.ch/handle/20.500.14171/119138): "LongFinBERT: A Language Model for Very Long Financial Documents" (joint with Minh Tri Phan)
 - Financial Sentiment from Social Media Images 
-- Networks of Retail Investors
-- Data-driven interpretable AI for Economics and Finance
+- Retail investor networks
+
 
 If you are interested in me or my work, [get in contact](mailto:erik-jan.senn@unisg.ch) and we can have a chat!
 
