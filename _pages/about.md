@@ -15,7 +15,8 @@ Under the supervision of [Prof. Dr. Francesco Audrino](https://www.linkedin.com/
 I am enthusiastic about enriching the Machine Learning toolbox for Economists, and I apply Machine Learning to extract economically relevant information from novel data sources.
 
 Currently, I work on the following topics:
-- Data-driven interpretable AI using Symbolic Regression
+- Data-driven interpretable AI using Symbolic Regression 
+- [Short conference paper](https://dl.acm.org/doi/10.1145/3712255.3734334) discussing model selection consistency of Symbolic Regression
 - [Working paper](https://www.alexandria.unisg.ch/handle/20.500.14171/119138): "LongFinBERT: A Language Model for Very Long Financial Documents" (joint with Minh Tri Phan)
 - Retail investor networks
 - Financial Sentiment from Social Media Images 
