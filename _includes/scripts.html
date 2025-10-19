@@ -2,3 +2,29 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+
+<!-- Auto add target="_blank" + rel to external and file links and to anchors with class 'new-tab' -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+	var fileExts = /\.(pdf|zip|docx?|xlsx?|pptx?|csv|tgz|gz|rar)$/i;
+	var anchors = document.querySelectorAll("a[href]");
+	anchors.forEach(function (a) {
+		var href = a.getAttribute("href");
+		if (!href) return;
+		// skip mailto/tel and anchors
+		if (href.indexOf("mailto:") === 0 || href.indexOf("tel:") === 0 || href.indexOf("#") === 0) return;
+		try {
+			var url = new URL(href, window.location.href);
+		} catch (e) { return; }
+		var isExternal = url.hostname !== window.location.hostname;
+		var isFile = fileExts.test(url.pathname);
+		var isFilesPath = url.pathname.indexOf("/files/") === 0 || url.pathname.indexOf("/files/") > -1;
+		if (a.classList.contains('new-tab') || isExternal || isFile || isFilesPath) {
+			if (!a.hasAttribute('target')) a.setAttribute('target', '_blank');
+			var rel = (a.getAttribute('rel') || '').split(/\s+/).filter(Boolean);
+			['noopener','noreferrer'].forEach(function (r) { if (rel.indexOf(r) === -1) rel.push(r); });
+			a.setAttribute('rel', rel.join(' '));
+		}
+	});
+});
+</script>

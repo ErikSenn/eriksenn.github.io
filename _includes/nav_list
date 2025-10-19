@@ -6,7 +6,7 @@
   <ul>
     {% for nav in navigation %}
       <li>
-        {% if nav.url %}
+          {% if nav.url %}
           {% comment %}internal/external URL check{% endcomment %}
           {% if nav.url contains "://" %}
             {% assign domain = "" %}
@@ -14,7 +14,12 @@
             {% assign domain = base_path %}
           {% endif %}
 
-          <a href="{{ domain }}{{ nav.url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+          {% assign open_new_tab = false %}
+          {% if nav.new_tab or nav.external or nav.url contains '://' %}
+            {% assign open_new_tab = true %}
+          {% endif %}
+
+          <a href="{{ domain }}{{ nav.url }}"{% if open_new_tab %} target="_blank" rel="noopener noreferrer"{% endif %}><span class="nav__sub-title">{{ nav.title }}</span></a>
         {% else %}
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
@@ -36,7 +41,12 @@
               {% assign active = "" %}
             {% endif %}
 
-            <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
+            {% assign child_new_tab = false %}
+            {% if child.new_tab or child.external or child.url contains '://' %}
+              {% assign child_new_tab = true %}
+            {% endif %}
+
+            <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}"{% if child_new_tab %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ child.title }}</a></li>
           {% endfor %}
         </ul>
         {% endif %}

@@ -19,8 +19,8 @@ Work experience
 ======
 * University of St. Gallen
   * Research Assistant at Faculty of Mathematics and Statistics for Prof. Francesco Audrino (2021 - present)
-  * Junior Research Assistant at Swiss Institute of Banking and Finance for [Prof. Angelo Ranaldo](https://sites.google.com/view/angeloranaldo/) (2021)
-  * Junior Research Assistant at Institute of Economics for [Prof. Thomas Epper](https://www.thomasepper.com/) (2019 - 2021)
+  * Junior Research Assistant at Swiss Institute of Banking and Finance for <a href="https://sites.google.com/view/angeloranaldo/" target="_blank" rel="noopener noreferrer">Prof. Angelo Ranaldo</a> (2021)
+  * Junior Research Assistant at Institute of Economics for <a href="https://www.thomasepper.com/" target="_blank" rel="noopener noreferrer">Prof. Thomas Epper</a> (2019 - 2021)
 
 * Industry work experience
   * Deutsche Bundesbank, Bond Pricing (internship, 2020)
@@ -61,4 +61,4 @@ Service and leadership
 
 Miscellaneous
 ======
-* Finalist of the [Econometrics Games in Amsterdam](https://wceconometrics.com/) 2023.
+* Finalist of the <a href="https://wceconometrics.com/" target="_blank" rel="noopener noreferrer">Econometrics Games in Amsterdam</a> 2023.
