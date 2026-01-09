@@ -11,7 +11,7 @@ Hello it's me, Erik!
 
 I am an Econometrics Ph.D. candidate in the <a href="https://www.unisg.ch/en/research/phd/graduate-programme-in-economics-and-finance-gpef/" target="_blank" rel="noopener noreferrer">Graduate Programme in Economics and Finance at the University of St. Gallen</a>.
 Under the supervision of <a href="https://www.linkedin.com/in/francescoaudrino/" target="_blank" rel="noopener noreferrer">Francesco Audrino</a> at the <a href="https://www.unisg.ch/de/universitaet/schools/school-of-economics-and-political-science-seps-hsg/ueber-die-seps/institute-fachbereiche-und-center/fachbereich-mathematik-und-statistik/chair-of-statistics/" target="_blank" rel="noopener noreferrer">Chair of Statistics</a>, I work on Applied Econometrics and Machine Learning in finance and economics.
-From March to August 2026, I am visiting the <a href="https://econ.au.dk/" target="_blank" rel="noopener noreferrer">Department of Economics and Business Economics at Aarus University</a>, hosted by <a href="https://sites.google.com/site/bezirgenveliyev/home" target="_blank" rel="noopener noreferrer">Bezirgen Veliyev</a>.
+From March to August 2026, I am visiting the <a href="https://econ.au.dk/" target="_blank" rel="noopener noreferrer">Department of Economics and Business Economics at Aarhus University</a>, hosted by <a href="https://sites.google.com/site/bezirgenveliyev/home" target="_blank" rel="noopener noreferrer">Bezirgen Veliyev</a>.
 
 I am enthusiastic about building modern Machine Learning tools for empirical finance and economics, and apply them to extract economically meaningful signals from new data sources.
 
