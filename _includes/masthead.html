@@ -10,10 +10,16 @@
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% assign open_new_tab = false %}
+            {% if link.new_tab or link.external or link.url contains '://' %}
+              {% assign open_new_tab = true %}
+            {% endif %}
+            <li class="masthead__menu-item">
+              <a href="{{ domain }}{{ link.url }}"{% if open_new_tab %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a>
+            </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

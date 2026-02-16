@@ -25,15 +25,15 @@ redirect_from:
 ## Tips and hints
 
 * Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
+* Go to the <a href="https://github.com/academicpages/academicpages.github.io/commits/master" target="_blank" rel="noopener noreferrer">commit list</a> (on your repo) to find the last version Github built with Jekyll. 
   * Green check: successful build
   * Orange circle: building
   * Red X: error
   * No icon: not built
 
 ## Resources
- * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
- * [MathJax Documentation](https://docs.mathjax.org/en/latest/)
+ * <a href="https://shopify.github.io/liquid/tags/control-flow/" target="_blank" rel="noopener noreferrer">Liquid syntax guide</a>
+ * <a href="https://docs.mathjax.org/en/latest/" target="_blank" rel="noopener noreferrer">MathJax Documentation</a>
 
 ## MathJax 
 
@@ -50,11 +50,11 @@ $$
 
 The default delimiters of `$$...$$` and `\\[...\\]` are supported for displayed mathematics, while `\\(...\\)` should be used for in-line mathematics (ex., \\(a^2 + b^2 = c^2\\))
 
-**Note** that since Academic Pages uses Markdown which cases some interference with MathJax and LaTeX for escaping characters and new lines, although [some workarounds exist](https://math.codidact.com/posts/278763/278772#answer-278772).
+**Note** that since Academic Pages uses Markdown which cases some interference with MathJax and LaTeX for escaping characters and new lines, although <a href="https://math.codidact.com/posts/278763/278772#answer-278772" target="_blank" rel="noopener noreferrer">some workarounds exist</a>.
 
 ## Markdown guide
 
-Academic Pages uses [kramdown](https://kramdown.gettalong.org/index.html) for Markdown rendering, which has some differences from other Markdown implementations such as GitHub's. In addition to this guide, please see the [kramdown Syntax page](https://kramdown.gettalong.org/syntax.html) for full documentation.  
+Academic Pages uses <a href="https://kramdown.gettalong.org/index.html" target="_blank" rel="noopener noreferrer">kramdown</a> for Markdown rendering, which has some differences from other Markdown implementations such as GitHub's. In addition to this guide, please see the <a href="https://kramdown.gettalong.org/syntax.html" target="_blank" rel="noopener noreferrer">kramdown Syntax page</a> for full documentation.  
 
 ### Header three
 
@@ -105,7 +105,7 @@ Startup
 :   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
 
 Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
+:   I'll let Bill O'Reilly <a href="https://www.youtube.com/watch?v=O_HyZ5aW76c" title="We'll Do It Live" target="_blank" rel="noopener noreferrer">explain</a> this one.
 
 ## Unordered Lists (Nested)
 
@@ -179,7 +179,7 @@ This is the regular text.[^1] This is more regular text.[^note]
 
 ### Anchor Tag (aka. Link)
 
-This is an example of a [link](http://github.com "Github").
+This is an example of a <a href="http://github.com" title="Github" target="_blank" rel="noopener noreferrer">link</a>.
 
 ### Abbreviation Tag
 
